@@ -14,3 +14,6 @@ console.log(password);
 
 const message = `Questa è la tua password: ${password}`;
 console.log(password);
+
+// output
+document.getElementById("password").innerHTML = message;
